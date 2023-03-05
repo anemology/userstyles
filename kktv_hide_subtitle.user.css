@@ -1,0 +1,23 @@
+/* ==UserStyle==
+@name         Hide KKTV Subtitle
+@description  Hide KKTV subtitles.
+@namespace    https://github.com/anemology/userstyles
+@homepageURL  https://github.com/anemology/userstyles
+@supportURL   https://github.com/anemology/userstyles/issues
+@updateURL    https://github.com/anemology/userstyles/raw/main/kktv_hide_subtitle.user.css
+@author       anemology
+@version      1.0
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("kktv.me") {
+    div.cue-overlay {
+        display: none;
+    }
+
+    /* hide main subtitle only
+    div.main-subtitle {
+        display: none;
+    }
+    */
+}

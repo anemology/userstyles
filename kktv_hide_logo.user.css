@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name         Hide KKTV Logo
+@description  Hide KKTV logo on the top-right in player.
+@namespace    https://github.com/anemology/userstyles
+@homepageURL  https://github.com/anemology/userstyles
+@supportURL   https://github.com/anemology/userstyles/issues
+@updateURL    https://github.com/anemology/userstyles/raw/main/kktv_hide_logo.user.css
+@author       anemology
+@version      1.0
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("kktv.me") {
+    .player__logo {
+        display: none;
+    }
+}
