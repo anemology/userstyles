@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name         friDay Subtitle Size
+@description  Adjust friDay subtitle font size.
+@namespace    https://github.com/anemology/userstyles
+@homepageURL  https://github.com/anemology/userstyles
+@supportURL   https://github.com/anemology/userstyles/issues
+@updateURL    https://github.com/anemology/userstyles/raw/main/friday_subtitle_size.user.css
+@author       anemology
+@version      1.0
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("video.friday.tw") {
+    video::cue {
+        font-size: 50px !important;
+    }
+}
