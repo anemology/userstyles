@@ -1,0 +1,25 @@
+/* ==UserStyle==
+@name         Hide LINE TV Player Control
+@description  Hide LINE TV player control.
+@namespace    https://github.com/anemology/userstyles
+@homepageURL  https://github.com/anemology/userstyles
+@supportURL   https://github.com/anemology/userstyles/issues
+@updateURL    https://github.com/anemology/userstyles/raw/main/linetv_hide_player_control.user.css
+@author       anemology
+@version      1.0
+@license      MIT
+==/UserStyle== */
+
+@-moz-document domain("linetv.tw") {
+    div.vjs-control-bar {
+        display: none !important;
+    }
+
+    div.vjs-text-track-cue {
+        display: none !important;
+    }
+
+    .vjs-big-play-button {
+        display: none !important;
+    }
+}
